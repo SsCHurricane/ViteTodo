@@ -1,0 +1,11 @@
+.header {
+	@apply flex items-center justify-between p-8;
+}
+
+.headerLogo {
+	@apply font-ubuntu text-4xl font-bold text-primary duration-200 ease-in-out hover:text-primary-dark;
+}
+
+.headerButton {
+	@apply h-9 w-9 text-primary duration-200 ease-in-out hover:text-primary-dark;
+}

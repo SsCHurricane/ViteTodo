@@ -1,0 +1,11 @@
+.wrapper {
+	@apply flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full border-2 border-primary bg-transparent shadow-check shadow-primary focus-within:border-primary;
+}
+
+input:checked + div {
+	box-shadow: 0px 0px 6px 1px #85ab81;
+	@apply border-thirdly;
+}
+input:checked + div svg {
+	@apply block;
+}
