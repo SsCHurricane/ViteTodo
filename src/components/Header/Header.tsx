@@ -1,4 +1,4 @@
-import Moon from '../../assets/img/svg/moon';
+import Moon from '../../assets/img/svg/Moon';
 import styles from './header.module.scss';
 
 const Header = (): JSX.Element => {
